@@ -7,28 +7,28 @@
 # Progress
 
 - [X] Introduction to Programming and Tools of the Trade
-- [] Basics of GitHub, includes working with a team
-- [] Accessibility
+- [ ] Basics of GitHub, includes working with a team
+- [ ] Accessibility
 - [X] JavaScript Data Types
 - [X] Functions and Methods
 - [X] Making Decisions with JS
 - [X] Arrays and Loops
-- [] HTML in Practice
-- [] CSS in Practice
-- [] JavaScript Closures, DOM manipulation
-- [] Build a Typing Game
-- [] Working with Browsers
-- [] Building a form, calling an API and storing variables in local storage
-- [] Background processes in the browser, web performance
-- [] More Advanced Game Development with JavaScript
-- [] Drawing to canvas
-- [] Collision detection 
-- [] Keeping score
-- [] Ending and restarting the game
-- [] HTML Templates and Routes in a Web App
-- [] Build a Login and Registration Form
-- [] Methods of Fetching and Using Data
-- [] Concepts of State Management
+- [ ] HTML in Practice
+- [ ] CSS in Practice
+- [ ] JavaScript Closures, DOM manipulation
+- [ ] Build a Typing Game
+- [ ] Working with Browsers
+- [ ] Building a form, calling an API and storing variables in local storage
+- [ ] Background processes in the browser, web performance
+- [ ] More Advanced Game Development with JavaScript
+- [ ] Drawing to canvas
+- [ ] Collision detection 
+- [ ] Keeping score
+- [ ] Ending and restarting the game
+- [ ] HTML Templates and Routes in a Web App
+- [ ] Build a Login and Registration Form
+- [ ] Methods of Fetching and Using Data
+- [ ] Concepts of State Management
 
 <details>
 <summary><font size=6> Lessons </font></summary>
