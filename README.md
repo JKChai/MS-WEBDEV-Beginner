@@ -7,16 +7,16 @@
 # Progress
 
 - [X] Introduction to Programming and Tools of the Trade
-- [ ] Basics of GitHub, includes working with a team
-- [ ] Accessibility
+- [X] Basics of GitHub, includes working with a team
+- [X] Accessibility
 - [X] JavaScript Data Types
 - [X] Functions and Methods
 - [X] Making Decisions with JS
 - [X] Arrays and Loops
-- [ ] HTML in Practice
-- [ ] CSS in Practice
-- [ ] JavaScript Closures, DOM manipulation
-- [ ] Build a Typing Game
+- [X] HTML in Practice
+- [X] CSS in Practice
+- [x] JavaScript Closures, DOM manipulation
+- [x] Build a Typing Game
 - [ ] Working with Browsers
 - [ ] Building a form, calling an API and storing variables in local storage
 - [ ] Background processes in the browser, web performance
@@ -264,3 +264,99 @@ for( let i =0; i< sales.length; i++) {
 sales.reduce((acc, curr) => acc + curr.amount, 0);
 ```
 
+# HTML & CSS
+
+- HTML is used to describe the structure of the webpage
+- CSS is to provide styling to the structure
+- JavaScript is to provide additional functionalities for interactivity of the web page
+
+## Key terms
+
+* separation of concerns
+* progressive enhancement
+* internal vs external css
+* document object model (DOM)
+* fault tolerance || graceful degradation
+* strict mode
+* Responsive Web Design (RWD)
+* DRY (Don't Repeat Yourself)
+
+## CSS concept
+
+- cascade: style set inline take priority by external styling
+- inheritance: child inherited styles from parent
+- selectors: tags, id, class
+
+```CSS
+body {
+    font-family: monospace;
+}
+
+ul {
+    font-family: helvetica;
+}
+```
+
+- `ul {}` is a *selector*, which selects the `ul` element
+- *declaration* is `font-family: helvetica`
+- *property name* is `font-family`
+- *value* is `font-family`
+
+```css
+li {
+  list-style: circle;
+}
+
+.list {
+  list-style: square;
+}
+
+#msg {
+  font-family: monospace;
+}
+```
+
+- *class selector* is prefix with `.` such as `.list`
+- *ID selector* is prefix with `msg`
+
+```css
+:root {
+  --green: #00FF00;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+.light-theme {
+  --bg: var(--green);
+  --fontColor: var(--black);
+}
+.dark-theme {
+  --bg: var(--black);
+  --fontColor: var(--green);
+}
+
+* {
+  color: var(--fontColor);
+  font-family: helvetica;
+}
+body {
+    background: var(--bg);
+}
+
+```
+
+- `:root` selector represents the `<html>` element in the html page
+- `var` keyword is used to specify variables to use as the property values
+- `*` selector is a universal selector that applies to all page elements (except where a more specific element selector overides it)
+
+## JavaScript concept
+
+> `<noscript>` is an example of *fault tolerance* or *graceful degradation*, this can help code to detect and plan for when a feature isn't supported or available
+
+> `strict mode` reduces silent errors, improves performance and provides you with more warnings and fewer unsafe features
+
+# Creating Game
+
+* Event-Driven programming
+* Procedural programming
+* event listeners
