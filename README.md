@@ -17,9 +17,9 @@
 - [X] CSS in Practice
 - [x] JavaScript Closures, DOM manipulation
 - [x] Build a Typing Game
-- [ ] Working with Browsers
-- [ ] Building a form, calling an API and storing variables in local storage
-- [ ] Background processes in the browser, web performance
+- [X] Working with Browsers
+- [X] Building a form, calling an API and storing variables in local storage
+- [x] Background processes in the browser, web performance
 - [ ] More Advanced Game Development with JavaScript
 - [ ] Drawing to canvas
 - [ ] Collision detection 
@@ -355,8 +355,14 @@ body {
 
 > `strict mode` reduces silent errors, improves performance and provides you with more warnings and fewer unsafe features
 
-# Creating Game
+# Build Typing Game
 
 * Event-Driven programming
 * Procedural programming
 * event listeners
+
+# Working with Browsers
+
+Set up extension browser with `webpack` and html, CSS, and JavaScript. This involved API from [electricitymap](https://electricitymap.org/opensource) that can use to locate the region electricity consumption and production.
+
+Confusing for beginner, needed to understand more in regard to node.js, api, web structure, etc. 
