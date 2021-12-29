@@ -390,3 +390,13 @@ scheme:[//authority]path[?query][#fragment]
 ** - indicate *catch-all*; use it to handle typos, etc. in a graceful manner
 
 **HTTP verb** - express the *what*. E.g., `get` expresses reading data from the resource and `post` expresses writing data to the resource
+
+### **CRUD** api:
+* Create
+* Read
+* Update
+* Delete
+
+There are differences under the implementation of `route` method used in express framework especially when it comes to *delete* verb. See the `read-write` files for specific details.
+
+

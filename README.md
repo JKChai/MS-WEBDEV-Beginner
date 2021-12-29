@@ -366,3 +366,10 @@ body {
 Set up extension browser with `webpack` and html, CSS, and JavaScript. This involved API from [electricitymap](https://electricitymap.org/opensource) that can use to locate the region electricity consumption and production.
 
 Confusing for beginner, needed to understand more in regard to node.js, api, web structure, etc. 
+
+# Space-app game
+
+
+# banking-app
+
+
